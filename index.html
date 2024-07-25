@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+
+    <!-- css link -=================================== -->
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- Icons Link ========================= -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+
+    <!-- BoxIcon Link ========================= -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Header Section ================================================= -->
+    <header class="header" id="header">
+        <div class="logoDiv">
+            <a href="#home"><i class='bx bxs-analyse icon'></i></a>
+            <span>Offi</span>
+        </div>
+        <div class="navBar" id="nav_Bar">
+            <ul class="navLists">
+                <li class="navItem"><a href="#about" class="navLink"> About</a></li>         
+                <li class="navItem"><a href="#product" class="navLink">Selling</a></li>
+                <li class="navItem"><a href="#feature" class="navLink">Features</a></li>
+                <li class="navItem"><a href="#blog" class="navLink">Blog</a></li>
+                <li class="navItem"><a href="#contact" class="navLink">Contact</a></li> 
+            </ul>
+
+            <div class="closeIconDiv" id="closeIconDiv">
+                <i class="uil uil-times-circle icon"></i>
+            </div>
+
+            <div class="tagLine">
+                <p>The best and premium coffee makers <br><strong>Offi Breweries</strong>.</p>
+            </div>
+        </div>
+        <div class="headerIcons">
+            <div class="toggleIconDiv" id="toggleIconDiv">
+                <i class='bx bx-dialpad-alt icon'></i>
+            </div>
+            <div class="cartIconDiv" id="cartIcon">
+                <i class="uil uil-shopping-bag icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section ======================================================= -->
+    <section class="home" id="home">
+        <div class="homeLeft">
+            <div class="homeText">
+                <h1>Choose Your Coffee Maker With Offi<span>.</span></h1>
+                <p>Buy the best premium coffee makers.</p>
+
+                <div class="numbersDiv grid">
+                    <div class="numbers">
+                        <h1>120k</h1>
+                        <span>Testimonial</span>
+                        <p>Testimonials from various customers who trust us.</p>
+                    </div>
+                    <div class="numbers">
+                        <h1>340+</h1>
+                        <span>Exclusive Products</span>
+                        <p>Premium materials with various stylish models.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="homeRight">
+            <div class="imgDiv">
+                <img src="./images/banner (2).jpg" alt="Banner image">
+            </div>
+        </div>
+
+        <div class="scrollBottom">
+            <a href="#about"><i class="uil uil-angle-double-down icon"></i></a>
+        </div>
+    </section>
+
+
+    <!-- About Section ============================================================================= -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="sectionIntro grid">
+                <div>
+                    <h1 class="setionTitle ">
+                        Special Features that makes you happy and cheer up!
+                    </h1>
+                </div>
+                <div class="cta">
+                    <span>More</span>
+                    <i class="uil uil-angle-double-right icon"></i>
+                </div>
+            </div>
+    
+            <div class="sectionContent grid">
+                <div class="gridItem grid">
+                    <div class="iconDiv">
+                        <i class="uil uil-flower icon"></i>
+                    </div>
+                    <div class="itemDesc">
+                        <span>Stylish Design</span>
+                        <p>A unique and different style from other teapots gives more luxurious.</p>
+                    </div>
+    
+                </div>
+                <div class="gridItem grid">
+                    <div class="iconDiv">
+                        <i class="uil uil-check-circle icon"></i>
+                    </div>
+                    <div class="itemDesc">
+                        <span>Premium Quality</span>
+                        <p>Premium quality that makes coffee makers more elegant and durable use.</p>
+                    </div>
+    
+                </div>
+                <div class="gridItem grid">
+                    <div class="iconDiv">
+                        <i class="uil uil-circle-layer icon"></i>
+                    </div>
+                    <div class="itemDesc">
+                        <span>The Best Wood</span>
+                        <p>we present the best choice of wood with premium quality and study.</p>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Collection section ==================================================================================--> 
+    <section class="product section" id="product">
+        <div class="container">
+            <div class="sectionIntro">
+                <h1 class="setionTitle ">
+                   Let's see our collection product
+                </h1>
+            </div>
+    
+            <div class="sectionContainer">
+                <div class="containerMenu">
+                    <ul class="menuLists">
+                        <li class="menuListItem" data-filter="new"><span class="listTitle">New Edition</span> <small>3 products</small></li>
+    
+                        <li class="menuListItem" data-filter="popular"><span class="listTitle">Popular</span> <small>3 products</small></li>
+    
+                        <li class="menuListItem active" data-filter="retro"><span class="listTitle">Grinder Retro</span> <small>6 products</small></li>
+    
+                        <li class="menuListItem" data-filter="best"><span class="listTitle">Best Seller</span> <small>3 products</small></li>
+                    </ul> 
+                </div>
+                <div class="menuProduct grid">
+                    <div class="productDiv hide" data-item="popular">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (1).png" alt="Product image" class="one">
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$139. <small>50</small></h2>
+                            <span>Manual Grinder New</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv hide" data-item="popular">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (2).png" alt="Product image" class="two">
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$139. <small>50</small></h2>
+                            <span>Manual Grinder New</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv hide" data-item="popular">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (3).png" alt="Product image" class="three" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$139. <small>50</small></h2>
+                            <span>Manual Grinder New</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv" data-item="retro">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (1).png" alt="Product image" class="one">
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$139. <small>50</small></h2>
+                            <span>Manual Grinder Retro</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv" data-item="retro">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (2).png" alt="Product image" class="two">
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$139. <small>50</small></h2>
+                            <span>Manual Grinder Retro</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv" data-item="retro">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (3).png" alt="Product image" class="three" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$139. <small>50</small></h2>
+                            <span>Manual Grinder Retro</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv hide" data-item="new">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (3).png" alt="Product image" class="three" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$139. <small>50</small></h2>
+                            <span>Manual Grinder New</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv" data-item="retro">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (5).png" alt="Product image" class="five" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$109. <small>00</small></h2>
+                            <span>Manual Grinder Retro</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv" data-item="retro">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (7).png" alt="Product image" class="seven" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$239. <small>80</small></h2>
+                            <span>Auto Grinder Retro</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv" data-item="retro">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (4).png" alt="Product image" class="four" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$134. <small>60</small></h2>
+                            <span>Manual Grinder Retro</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv hide" data-item="new">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (7).png" alt="Product image" class="seven" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$239. <small>80</small></h2>
+                            <span>Auto Grinder New</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv hide" data-item="best">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (5).png" alt="Product image"  class="five" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$109. <small>00</small></h2>
+                            <span>Manual Grinder Retro</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv hide" data-item="new">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (5).png" alt="Product image" class="five" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$109. <small>00</small></h2>
+                            <span>Manual Grinder New</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv hide" data-item="best">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (7).png" alt="Product image" class="seven" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$239. <small>80</small></h2>
+                            <span>Auto Grinder Retro</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    <div class="productDiv hide" data-item="best">
+                        <div class="imgDiv">
+                            <img src="./images/pngImage (8).png" alt="Product image" class="eight" >
+                        </div>
+                        <div class="imgDesc">
+                            <h2>$209. <small>99</small></h2>
+                            <span>Auto Grinder</span>
+                            <p>Full Spectrum CBD Oil<p>
+                        </div>
+                        <div class="btn">
+                            <span>+</span>
+                        </div>
+                        <div class="socials">
+                            <i class='bx bxs-heart bx-flip-horizontal icon' ></i>
+                            <i class='bx bxs-bookmark-heart icon'></i>
+                            <i class='bx bxs-share-alt icon' ></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Features  ============================================================================-->
+    <section class="featured container section" id="feature">
+        <div class="sectionIntro">
+            <h1 class="setionTitle ">
+              We provide the stylish design and nest quality just for you!
+            </h1>
+        </div>
+
+        <div class="sectionContainer grid">
+            <div class="imageDiv">
+                <img src="./images/img (7).jpg" alt="Coffee Image">
+                <div class="smallImage">
+                    <img src="./images/img (3).jpg" alt="image ">
+                </div>
+            </div>
+            <div class="sectionText">
+                <div class="title">
+                    <h1>Teapot Coffee</h1>
+                <p>Full Spectrum CBD Oil</p>
+                </div>
+                <div class="desc">
+                    <div>
+                        <h2>$120.99</h2>
+                        <small>Special Price</small>
+                    </div>
+                    <div>
+                        <h2>2 Colors</h2>
+                        <small> Black and White</small>
+                    </div>
+                </div>
+                <p>We're thrilled about our light roast. It was our first coffee we ever roasted, so it has a special place in our hearts thsi single origin is inspired. </p>
+
+                <div class="buttonDiv">
+                  <div class="cta"><span>Buy Now</span></div>
+                  <div class="cta noBg">
+                      <span>See more </span>
+                      <span><i class="uil uil-angle-double-right icon"></i></span>
+                </div>
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </section>  
+
+    <!-- Sponsorshop Section ============================================================ -->
+
+    <div class="sponsorDiv container">
+       <div class="logos grid">
+           <div class="sponsorLogoDiv">
+               <img src="./images/logos/Logo (3).png" alt="Logo Image" style="width: 70%;">
+           </div>
+           <div class="sponsorLogoDiv">
+               <img src="./images/logos/Logo (1).png" alt="Logo Image" style="width: 70%;">
+           </div>
+           <div class="sponsorLogoDiv">
+               <img src="./images/logos/Logo (2).png" alt="Logo Image" style="width: 80%; padding-top: 1rem;">
+           </div>
+           <div class="sponsorLogoDiv">
+               <img src="./images/logos/Logo (4).png" alt="Logo Image" style="width: 70%;">
+           </div>
+       </div>
+    </div>  
+
+     <!-- Blog Section   ============================================================================-->
+     <section class="blog section" id="blog">
+        <div class="container">
+            <div class="sectionIntro">
+                <h1 class="setionTitle ">
+                  Our Blog Coffee with trending topic for the week.
+                </h1>
+            </div>
+    
+            <div class="sectionContainer grid">
+                <div class="blogPostDiv">
+                    <div class="imgDiv">
+                        <img src="./images/img (4).jpg" alt="Coffee Image">
+                        <div class="btn">
+                            <span><i class="uil uil-arrow-up-right icon"></i></span>
+                        </div>
+                    </div>
+                    <div class="imgDesc">
+                        <span>10 Recommendation Coffee 2022</span>
+                        <p>We're thrilled about our light roast. It was our first coffee we ever roasted..<p>
+                           
+                   
+                        <div class="socials">
+                            <blockquote><i class="uil uil-comment-chart-line icon"></i> <span>10</span></blockquote>
+                            <blockquote><i class="uil uil-eye icon"></i> <span>10.1k</span></blockquote>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="blogPostDiv">
+                    <div class="imgDiv">
+                        <img src="./images/img (1).jpg" alt="Coffee Image">
+                        <div class="btn">
+                            <span><i class="uil uil-arrow-up-right icon"></i></span>
+                        </div>
+                    </div>
+                    <div class="imgDesc">
+                        <span>12 Health benefits of coffee.</span>
+                        <p>Coffee has been both praised and mocked for centuries. It has been blamed...<p>
+                           
+                   
+                        <div class="socials">
+                            <blockquote><i class="uil uil-comment-chart-line icon"></i> <span>27</span></blockquote>
+                            <blockquote><i class="uil uil-eye icon"></i> <span>320.1k</span></blockquote>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- footer section ============================================================================ -->
+    <div class="footer" id="contact">
+        <div class="footerContainer grid container">
+            <div class=" col-1">
+                <div class="logoDiv">
+                    <a href="#home"><i class='bx bxs-analyse icon'></i></a>
+                    <span>Offi</span>
+                </div>
+                <div class="emailDiv">
+                    
+                    <span>Subscribe to our  newsletter..</span>
+                   <div class="inputDiv">
+                    <input type="text" placeholder="Type your email">
+                    <div class="btn">
+                       <i class="uil uil-arrow-up-right icon"></i>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <div class="gridDiv">
+                <span class="divTitle">
+                    Address
+                </span>
+               <span>1090 Jumeira Cirle Village <br>Opp Nesto mall.</span>
+            </div>
+            <div class="gridDiv">
+                <span class="divTitle">
+                 Contact
+                </span>
+               <span>+971524312309 <br>ifo@support.com</span>
+            </div>
+            <div class="gridDiv">
+                <span class="divTitle">
+                    Office
+                </span>
+               <span>Monday - Saturday <br> 9AM - 10PM</span>
+            </div>
+        </div>
+        <div class="copyRightDiv container">
+            <div class="footerSocials">
+                <i class="uil uil-instagram icon"></i>
+                <i class="uil uil-facebook-f icon"></i>
+                <i class="uil uil-twitter-alt icon"></i>
+                <i class="uil uil-linkedin-alt icon"></i>
+            </div>
+            <div class="copyRight">
+                &copy; 2022 Copyright. <span>IsraTech</span>
+            </div>
+        </div>
+    </div>
+
+
+    
+       <!-- Scroll Reveal.js ============================================= -->
+       <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- index.js Link  ======================== -->
+    <script src="./index.js"></script>
+</body>
+</html>
